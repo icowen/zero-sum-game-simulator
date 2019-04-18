@@ -31,15 +31,7 @@ class Matrix
 			System.out.println("The probability of player 2 playing strategy A is: " + q);
 		}
 		
-		
-//		public double calculateexpectedValues()
-//		
-//		{
-//			double expectedValue = (this.a*this.p*this.q) + (this.b*(1-this.p)*this.q) + (this.c*(1-this.q)*this.p) + (this.d*(1-this.q)*(1-this.p));
-//			System.out.println("expectedValue" + expectedValue);
-//
-//				return expectedValue;
-//		}
+	
 		
 		
 		double getA() {

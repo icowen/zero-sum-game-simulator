@@ -8,11 +8,10 @@ public class Game {
 	Player player2 = new Player(0.5);
 	Matrix matrix;
 	boolean losing = true;
-	double expectedValue;
 
 	public Game (Matrix matrix) {
 		this.matrix = matrix;
-		this.expectedValue = matrix.calculateexpectedValues();
+		
 	
 	}
 	public void playgame() {
